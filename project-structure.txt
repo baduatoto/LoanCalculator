@@ -1,0 +1,44 @@
+loan-comparison-app/
+├── frontend/                      # Frontend codebase
+│   ├── public/                    # Static files
+│   │   └── assets/                # Images, videos, etc.
+│   ├── src/
+│   │   ├── components/            # Reusable UI components
+│   │   │   ├── common/            # Common components like buttons, inputs
+│   │   │   ├── calculator/        # Loan calculator components
+│   │   │   └── comparison/        # Comparison tool components
+│   │   ├── pages/                 # Page components
+│   │   │   ├── home/              # Homepage
+│   │   │   ├── education/         # Loan education pages
+│   │   │   ├── comparison/        # Comparison tools
+│   │   │   ├── calculator/        # Calculator tools
+│   │   │   ├── authentication/    # Login/signup pages
+│   │   │   └── dashboard/         # User dashboard
+│   │   ├── services/              # API services
+│   │   ├── utils/                 # Utility functions
+│   │   ├── context/               # React context for state management
+│   │   ├── hooks/                 # Custom hooks
+│   │   └── styles/                # Global styles
+├── backend/                       # Backend codebase
+│   ├── src/
+│   │   ├── api/                   # API routes
+│   │   │   ├── auth/              # Authentication endpoints
+│   │   │   ├── loans/             # Loan data endpoints
+│   │   │   ├── rates/             # Interest rate endpoints
+│   │   │   ├── institutions/      # Financial institution endpoints
+│   │   │   └── leads/             # Lead generation endpoints
+│   │   ├── models/                # Database models
+│   │   ├── services/              # Business logic
+│   │   │   ├── rate-tracker/      # Interest rate tracking service
+│   │   │   ├── ai-analysis/       # AI analysis service
+│   │   │   └── lead-processor/    # Lead processing service
+│   │   ├── utils/                 # Utility functions
+│   │   └── config/                # Configuration files
+│   ├── tests/                     # Backend tests
+├── ai-service/                    # AI recommendation engine
+│   ├── models/                    # AI models
+│   ├── training/                  # Training scripts
+│   ├── api/                       # AI service API
+├── database/                      # Database migrations and seeds
+├── docs/                          # Project documentation
+└── infrastructure/                # Infrastructure as code
